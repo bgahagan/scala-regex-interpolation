@@ -1,6 +1,8 @@
 Regex String Interpolation Utility
 ==================================
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/dev.bgahagan/scala-regex-interpolation_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/dev.bgahagan/scala-regex-interpolation_2.13)
+
 A small library that allows [interpolation](https://www.scala-lang.org/files/archive/spec/2.13/08-pattern-matching.html#interpolated-string-patterns) of regex capture groups in `match` statements.
 
 The nth interpolant (e.g. `$group1`) will match against the nth capture group in the regex.
